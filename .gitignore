@@ -1,0 +1,26 @@
+# Gradle and Kotlin caches, compiled output
+.gradle/
+.kotlin/
+build/
+out/
+bin/
+*.class
+
+# Local IDE settings
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.classpath
+.project
+local.properties
+
+# Temporary verification output
+.work/
+*.log
+
+# Windows files
+Thumbs.db
+Desktop.ini

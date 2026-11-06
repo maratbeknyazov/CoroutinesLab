@@ -1,0 +1,7 @@
+package broken
+
+import kotlinx.coroutines.*
+
+fun main() {
+    launch { println("Hello") }
+}

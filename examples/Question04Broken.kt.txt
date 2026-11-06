@@ -1,0 +1,7 @@
+package broken
+
+import kotlinx.coroutines.delay
+
+suspend fun loadUser() { delay(100) }
+
+fun main() { loadUser() }
